@@ -15,6 +15,6 @@ const make_todo = async() =>{
             break;
         }
     }
-    list.forEach((e) => console.log(e) )
+    list.forEach((e) => console.log(`your task is: ${e}` ) )
 }    
 make_todo()
